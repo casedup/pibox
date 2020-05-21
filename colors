@@ -1,0 +1,18 @@
+hsl(217, 39%, 31%) - original blue
+hsl(217, 39%, 28%) -darker blue
+hsl(217, 39%, 87%) - alice
+
+div.w3-content{
+	background-color: hsl(217, 39%, 87%);
+}    
+
+
+.w3-display-bottommiddle {
+    position: absolute;
+    top: 70vh;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0%);
+    /* margin-top: 50vh; */
+    -ms-transform: translate(-50%,0%);
+}
