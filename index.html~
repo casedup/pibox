@@ -103,7 +103,13 @@
           <div class="w3-container w3-white">
             <p><b>PiBox Starterkit A</b></p>
             <p class="w3-opacity">$175</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <p>Includes:
+					<ul>
+						<li>Raspberry Pi 4</li>
+						<li>Mini-HDMI to HDMI Cable</li>			
+					</ul>            
+            
+            </p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Now</button>
           </div>
         </div>
