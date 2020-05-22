@@ -101,9 +101,9 @@
         <div class="w3-third w3-margin-bottom">
           <img src="media/img/pi4-trans.jpg" alt="PiBox Starterkit A" style="width:100%" class="w3-hover-opacity" id="box-small1">
           <div class="w3-container w3-white">
-            <p><b>PiBox Starterkit A</b></p>
-            <p class="w3-opacity">$175</p>
-            <p>Includes:
+            <h5>PiBox Starterkit A</h5>
+            <p><strong>$175</strong></p>
+            <p><em>Includes</em>:
 					<ul>
 						<li>Raspberry Pi 4</li>
 						<li>Mini-HDMI to HDMI Cable</li>
@@ -119,8 +119,8 @@
         <div class="w3-third w3-margin-bottom">
           <img src="media/img/pi-bundle3a.png" alt="PiBox Starterkit C" style="width:100%" class="w3-hover-opacity" id="box-small1">
           <div class="w3-container w3-white">
-            <p><b>PiBox Starterkit B</b></p>
-            <p class="w3-opacity">$200</p>
+            <h5>PiBox Starterkit B</h5>
+            <p><strong>$200</strong></p>
             <p>Includes:
             	<ul>
             		<li>Starterkit A</li>
@@ -136,8 +136,8 @@
         <div class="w3-third w3-margin-bottom">
           <img src="media/img/pi-bundle4a.jpg" alt="PiBox Starterkit C" style="width:100%" class="w3-hover-opacity" id="box-small1">
           <div class="w3-container w3-white">
-            <p><strong>PiBox Starterkit C</strong></p>
-            <p class="w3-opacity">$215</p>
+            <h5>PiBox Starterkit C</h5>
+            <p><strong>$215</strong></p>
             <p>Includes:
 					<ul>            
              		<li>Starter Kit A</li>
