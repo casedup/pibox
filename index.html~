@@ -44,7 +44,7 @@
 
   <!-- Automatic Slideshow Images -->
   <div class="mySlides w3-display-container w3-center">
-    <img src="media/img/intro-pi2.jpeg" style="width:98vw; height:85vh;">
+    <img src="media/img/intro-pi2.jpg" style="width:98vw; height:85vh;">
     <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-48 w3-hide-small">
       <h2>Raspberry Pi 4</h2>
       <p><b>Completely upgraded, re-engineered <strong>Faster</strong>, more powerful</b></p>   
