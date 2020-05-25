@@ -136,7 +136,8 @@
 		  <div> 
 		
 				<ul>
-				  <li>
+				  <li ng-repeat="x in namesB">
+					{{ x.feature }}
 				  </li>
 				</ul>
 			
@@ -149,8 +150,8 @@
         <div class="w3-third w3-margin-bottom">
           <img src="media/img/pi-bundle4a.jpg" alt="PiBox Starterkit C" style="width:100%" class="w3-hover-opacity" id="box-small1">
           <div class="w3-container w3-white">
-            <h5>PiBox Starterkit C</h5>
-            <p><strong>$215</strong></p>
+            <h5 ng-bind="namesC[0].name">{{name}}</h5>
+            <p ng-bind="namesC[0].price"><strong>{{price}}</strong></p>
             <p><em>Includes</em>:
 					<ul>            
              		<li>Starter Kit A</li>
