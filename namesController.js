@@ -28,8 +28,8 @@ var app = angular.module('myApp', [])
   	
   	$scope.showCase = [
   		{name:'Raspberry Pi 4',description:'Completely upgraded, re-engineered Faster, more powerful',imageUrl:'media/img/intro-pi2.jpg'},
-  		{name:'Raspberry Pi 4',
-  		description:'Completely upgraded, re-engineered Faster, more powerful',
-  		imageUrl:'media/img/intro-pi2.jpg'},
-  	]
+  		{name:'Redesigned Kodi Media Center',description:'Watch Live TV, Movies, Anime and more more!',imageUrl:'media/img/movie-night3.jpeg'},
+  		{name:'Versatile Cheap Powerful',description:'Gaming, Browsing, LIVE TV all supported!',imageUrl:'media/img/gaming-pc.jpeg'}
+  	];
+  	
 });

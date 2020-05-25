@@ -52,17 +52,17 @@
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
-    <img src="media/img/movie-night3.jpeg" style="width:98vw; height:85vh;">
+    <img ng-src="{{showCase[1].imageUrl}}" alt="{{showCase[1].name}}" style="width:98vw; height:85vh;">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-48 w3-hide-small">
-      <h1>Redesigned Kodi Media Center</h1>
-      <p>Watch Live TV, Movies, Anime and more more!</p>    
+      <h1 ng-bind="showCase[1].name">{{name}}</h1>
+      <p ng-bind="showCase[1].description">{{description}}</p>   
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
-    <img src="media/img/gaming-pc.jpeg" style="width:98vw; height:85vh;opacity: 0.93;">
+    <img ng-src="{{showCase[2].imageUrl}}" alt="{{showCase[2].name}}" style="width:98vw; height:85vh;opacity: 0.93;">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-48 w3-hide-small">
-      <h1>Versatile Cheap Powerful</h1>
-      <p>Gaming, Browsing, LIVE TV all supported!</p>    
+      <h1 ng-bind="showCase[2].name">{{name}}</h1>
+      <p ng-bind="showCase[2].description">{{description}}</p>  
     </div>
   </div>
 
