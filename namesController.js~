@@ -19,10 +19,19 @@ var app = angular.module('myApp', [])
   	];
   		$scope.namesC = [
 
-  		 {name:'PiBox Starterkit C',feature:'Starterkit B', price:'$200'},
+  		 {name:'PiBox Starterkit C',feature:'Starterkit B', price:'$200', imageUrl:'media/img/pi-bundle4a.jpg'},
 	    {name:'PiBox Starterkit C',feature:'Wireless SNES Remote Controller'},
 	    {name:'PiBox Starterkit C',feature:'128GB Thumbdrive'},
 	    {name:'PiBox Starterkit C',feature:'Dual 5v Fan'},
 	    {name:'PiBox Starterkit C',feature:'100 Free Roms!'}
   	];
+  	
+  	$scope.showCase = [
+  		{name:'Raspberry Pi 4',
+  		description:'Completely upgraded, re-engineered Faster, more powerful',
+  		imageUrl:'media/img/intro-pi2.jpg'},
+  		{name:'Raspberry Pi 4',
+  		description:'Completely upgraded, re-engineered Faster, more powerful',
+  		imageUrl:'media/img/intro-pi2.jpg'},
+  	]
 });

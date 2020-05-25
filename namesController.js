@@ -25,4 +25,11 @@ var app = angular.module('myApp', [])
 	    {name:'PiBox Starterkit C',feature:'Dual 5v Fan'},
 	    {name:'PiBox Starterkit C',feature:'100 Free Roms!'}
   	];
+  	
+  	$scope.showCase = [
+  		{name:'Raspberry Pi 4',description:'Completely upgraded, re-engineered Faster, more powerful',imageUrl:'media/img/intro-pi2.jpg'},
+  		{name:'Raspberry Pi 4',
+  		description:'Completely upgraded, re-engineered Faster, more powerful',
+  		imageUrl:'media/img/intro-pi2.jpg'},
+  	]
 });
