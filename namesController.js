@@ -1,13 +1,12 @@
 var app = angular.module('myApp', [])
-	app.controller('namesController', function($scope) {
-		$scope.modelA = [
-		{name:'PiBox Starter Kit A'},
-		{includes: 'Raspberry Pi 4'},
-		{includes: 'Mini-HDMI to HDMI Cable'},
-		{includes: 'USB Type-C Power Adapter'},
-		{includes: '32GB San-disk w/ software installed'},
-		{includes: '5v Fan + 3 Heat sinks'}
-		
-		]
-	
-	});
+
+	app.controller('namesCtrl', function($scope) {
+	    $scope.names = [
+	    {name:'PiBox Starterkit B'},
+	    {feature:'Raspberry Pi 4'},
+	    {feature:'Mini-HDMI to HDMI Cable'},
+	    {feature:'USB Type-C Power Adapter'},
+	    {feature:'32GB San-disk w/ software installed'},
+	    {feature:'32GB San-disk w/ software installed'},
+  ];
+});
