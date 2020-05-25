@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="en" ng-app="myApp" >
 <title>WiTech - Box - Gen-X Hardware</title>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <meta charset="UTF-8">
@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="pibox.css">
 <script src="pibox.js" defer></script>
 <script src="namesController.js"></script>
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -100,7 +101,7 @@
   </div>
 
   <!-- The Shopping Section -->
-  <div class="w3-black" id="shop">
+  <div class="w3-black" id="shop" ng-controller="namesCtrl">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide w3-center">  PiBox - Buy Now</h2>
       <p class="w3-opacity w3-center"><i>1-3 Day Shipping USVI</i></p><br>
@@ -110,10 +111,10 @@
         <div class="w3-third w3-margin-bottom">
           <img src="media/img/pi4-trans.jpg" alt="PiBox Starterkit A" style="width:100%" class="w3-hover-opacity" id="box-small1">
           <div class="w3-container w3-white">
-            <h5>{}</h5>
+            <h5 ng-bind="names[0].name"> {{name}}</h5>
             <p><strong>$175</strong></p>
             <p><em>Includes</em>:
-		  <div ng-app="myApp" ng-controller="namesCtrl"> 
+		  <div> 
 		
 				<ul>
 				  <li ng-repeat="x in names">
@@ -133,13 +134,15 @@
             <h5>PiBox Starterkit B</h5>
             <p><strong>$200</strong></p>
             <p><em>Includes</em>:
-            	<ul>
-            		<li>Starterkit A</li>
-            		<li>Wired Keyboard + Mouse</li>
-            		<li>Debrid + Trakt Account</li>
-            		<li>Unlimited Youtube API</li>
-            		<li>Tech Support w/ Updates</li>
-            	</ul>
+		  <div> 
+		
+				<ul>
+				  <li>
+				  </li>
+				</ul>
+			
+			</div>
+
             	</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModalB').style.display='block'">Buy Now</button>
           </div>
@@ -222,17 +225,6 @@
   </div>
   <!-- The Contact Section -->
   
-  <div ng-app="myApp" ng-controller="namesCtrl"> 
-
-<ul>
-  <li ng-repeat="x in names">
-      {{ feature }}
-  </li>
-</ul>
-
-</div>
-
-
 
   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
     <h2 class="w3-wide w3-center">Contact PiBox</h2>

@@ -1,6 +1,6 @@
 var app = angular.module('myApp', [])
 
-	app.controller('namesCtrl', function($scope) {
+	app.controller('namesCtrlB', function($scope) {
 	    $scope.names = [
 	  
 	    {name:'PiBox Starterkit A',feature:'Starterkit A'},
