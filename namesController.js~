@@ -17,5 +17,12 @@ var app = angular.module('myApp', [])
 	    {name:'PiBox Starterkit B',feature:'Unlimited Youtube API'},
 	    {name:'PiBox Starterkit B',feature:'Tech Support w/ Updates'}
   	];
-  		
+  		$scope.namesC = [
+
+  		 {name:'PiBox Starterkit C',feature:'Starterkit B', price:'$200'},
+	    {name:'PiBox Starterkit C',feature:'Wireless SNES Remote Controller'},
+	    {name:'PiBox Starterkit C',feature:'128GB Thumbdrive'},
+	    {name:'PiBox Starterkit C',feature:'Dual 5v Fan'},
+	    {name:'PiBox Starterkit C',feature:'100 Free Roms!'}
+  	];
 });
