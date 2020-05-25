@@ -122,17 +122,14 @@
             <h5>{{namesB[0].name}}</h5>
             <p><strong>{{namesB[0].price}}</strong></p>
             <p><em>Includes</em>:
-		  <div> 
-		
-				<ul>
-				  <li ng-repeat="x in namesB">
-					{{ x.feature }}
-				  </li>
-				</ul>
-			
-			</div>
-
-            	</p>
+				  <div> 
+						<ul>
+						  <li ng-repeat="x in namesB">
+							{{ x.feature }}
+						  </li>
+						</ul>
+					</div>
+	      	</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModalB').style.display='block'">Buy Now</button>
           </div>
         </div>
