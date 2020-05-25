@@ -61,8 +61,8 @@
   <div class="mySlides w3-display-container w3-center">
     <img ng-src="{{showCase[2].imageUrl}}" alt="{{showCase[2].name}}" style="width:98vw; height:85vh;opacity: 0.93;">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-48 w3-hide-small">
-      <h1></h1>
-      <p></p>    
+      <h1 ng-bind="showCase[2].name">{{name}}</h1>
+      <p ng-bind="showCase[2].description">{{description}}</p>  
     </div>
   </div>
 
@@ -84,15 +84,15 @@
                           a small fortune but not with the PiBox.     </p>
     <div class="w3-row w3-padding-64">
       <div class="w3-third">
-        <h4>PiBox - Max Starter A</h4>
-        <img src="media/img/pi-bundle1.png" class="w3-round w3-margin-bottom" alt="PiBox - Max Starter A" style="width:60%">
+        <h4 ng-bind="names[0].name"> {{name}}</h4>
+        <img ng-src="{{names[0].imageUrl}}" alt="{{names[0].name}}"class="w3-round w3-margin-bottom" style="width:60%">
       </div>
       <div class="w3-third">
-        <h4>PiBox - Max Starter B</h4>
+        <h4 ng-bind="namesB[0].name"> {{name}}</h4>
         <img src="media/img/pi-bundle.png" class="w3-round w3-margin-bottom" alt="PiBox - Max Starter B" style="width:60%">
       </div>
       <div class="w3-third">
-        <h4>PiBox - Max Starter C</h4>
+        <h4 ng-bind="namesC[0].name"> {{name}}</h4>
         <img src="media/img/pi4-works1.jpg" class="w3-round" alt="PiBox - Max Starter C" style="width:60%">
       </div>
     </div>
