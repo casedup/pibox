@@ -101,7 +101,7 @@
   </div>
 
   <!-- The Shopping Section -->
-  <div class="w3-black" id="shop" ng-controller="namesCtrl">
+  <div class="w3-black" id="shop"  ng-controller="namesCtrl">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide w3-center">  PiBox - Buy Now</h2>
       <p class="w3-opacity w3-center"><i>1-3 Day Shipping USVI</i></p><br>
@@ -121,7 +121,6 @@
 					{{ x.feature }}
 				  </li>
 				</ul>
-			
 			</div>
 
             </p>
@@ -131,13 +130,14 @@
         <div class="w3-third w3-margin-bottom">
           <img src="media/img/pi-bundle3a.png" alt="PiBox Starterkit C" style="width:100%" class="w3-hover-opacity" id="box-small1">
           <div class="w3-container w3-white">
-            <h5>PiBox Starterkit B</h5>
-            <p><strong>$200</strong></p>
+            <h5 ng-bind="namesB[0].name">{{name}}</h5>
+            <p ng-bind="namesB[0].price"><strong>{{price}}</strong></p>
             <p><em>Includes</em>:
 		  <div> 
 		
 				<ul>
-				  <li>
+				  <li ng-repeat="x in namesB">
+					{{ x.feature }}
 				  </li>
 				</ul>
 			
