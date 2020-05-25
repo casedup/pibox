@@ -109,7 +109,7 @@
  
       <div class="w3-row-padding w3-padding-32" style="margin:0 -10vw">
         <div class="w3-third w3-margin-bottom">
-          <img src="media/img/pi4-trans.jpg" alt="PiBox Starterkit A" style="width:100%" class="w3-hover-opacity" id="box-small1">
+          <img ng-src="{{names[0].imageUrl}}" alt="{{names[0].name}}" style="width:100%" class="w3-hover-opacity" id="box-small1">
           <div class="w3-container w3-white">
             <h5 ng-bind="names[0].name"> {{name}}</h5>
             <p ng-bind="names[0].price"><strong>{{price}}</p></strong>
@@ -128,7 +128,7 @@
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
-          <img src="media/img/pi-bundle3a.png" alt="PiBox Starterkit C" style="width:100%" class="w3-hover-opacity" id="box-small1">
+          <img ng-src="{{namesB[0].imageUrl}}" alt="{{namesB[0].name}}" alt="PiBox Starterkit C" style="width:100%" class="w3-hover-opacity" id="box-small1">
           <div class="w3-container w3-white">
             <h5 ng-bind="namesB[0].name">{{name}}</h5>
             <p ng-bind="namesB[0].price"><strong>{{price}}</strong></p>
@@ -148,18 +148,20 @@
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
-          <img src="media/img/pi-bundle4a.jpg" alt="PiBox Starterkit C" style="width:100%" class="w3-hover-opacity" id="box-small1">
+          <img src="{{namesC[0].imageUrl}}" alt="{{namesC[0].name}}" alt="PiBox Starterkit C" style="width:100%" class="w3-hover-opacity" id="box-small1">
           <div class="w3-container w3-white">
             <h5 ng-bind="namesC[0].name">{{name}}</h5>
             <p ng-bind="namesC[0].price"><strong>{{price}}</strong></p>
             <p><em>Includes</em>:
-					<ul>            
-             		<li>Starter Kit A</li>
-             		<li>Wireless SNES Remote Controller</li>
-             		<li>128GB Thumbdrive</li>
-             		<li>Dual 5v Fan</li>
-             		<li>100 Free Roms!</li>
-					</ul>             
+			<div> 
+		
+				<ul>
+				  <li ng-repeat="x in namesC">
+					{{ x.feature }}
+				  </li>
+				</ul>
+			
+			</div>
              </p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModalC').style.display='block'">Buy Now</button>
           </div>
