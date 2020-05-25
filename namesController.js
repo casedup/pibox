@@ -32,27 +32,11 @@ var app = angular.module('myApp', [])
   		{name:'Versatile Cheap Powerful',description:'Gaming, Browsing, LIVE TV all supported!',imageUrl:'media/img/gaming-pc.jpeg'}
   	];
   	
-  	$scope.aboutUs = [
-  		{title:'PiBox - Max Starter Kits',description:'
-  		
-  		We have created a revolutionary experience that outperforms would be competitors and puts true value back into the hands of the consumer.
-  		We have taken the latest creation of the Raspberry Pi Foundation and doubled the storage and cooling capacity, redesigned the software 
-  		with upgrades and assembled this all in the most convienient experience possible. Browse the internet, Watch a new movie,
-  		Compose a email, play Super Mario Bros or just simply watch a old flick from back in the day! The choice is yours. Streaming movies
-  		 has never been easier with our built in Trakt functionality the PiBox will keep your media collection synced effortlessly. Children are
-  		  delighted when they discover their very own "Kids Section" in our built in Kodi experience. Thousands of hours of quality media enjoyment only
-  		   one click away, so make sure you buy TWO! Your journey begins with a purchase of our PiBox Max Starterkit A. This bundle comes 
-  		   with everything you need to get going directly out the box with minimum overhead as possible. Adventure seekers want
-  		    the PiBox Max Starterkit B. This package combines the PiBox Max Starter A bundle and takes it to the next level with added Wireless
-  		     keyboard + mouse and Debrid, Trakt, IPTV, autoupdates/upgrades, tech support and much much more. The real thrill seekers hop right into 
-  		     the PiBox Max Starterkit C baby! This is this real powerhouse combines all of our in-house ingeniuty and know-how all the latest accessories 
-  		     and bundle it up for a premium experience unlike any other. The amount of consumer hours spent on our Starterkits vs downtime due to hours is
-  		      almost neglible. The PiBox is able to operate for days without reboot or restart, making for undeniable reliability. With a system like this
-  		       you can expect to pay a small fortune but not with the PiBox.
- 
-  		',imageUrl:'media/img/intro-pi2.jpg'},
-  		
-  	
-  	
-  	]
+  $scope.aboutUs = [
+  	{name:'PiBox - Max Starter Kits',
+  	description:'We have created a revolutionary experience that outperforms would be competitors and puts true value back into the hands of the consumer. We have taken the latest creation of the Raspberry Pi Foundation and doubled the storage and cooling capacity, redesigned the software with upgrades and assembled this all in the most convienient experience possible. Browse the internet, Watch a new movie, Compose a email, play Super Mario Bros or just simply watch a old flick from back in the day! The choice is yours. Streaming movies has never been easier with our built in Trakt functionality the PiBox will keep your media collection synced effortlessly. Children are delighted when they discover their very own "Kids Section" in our built in Kodi experience. Thousands of hours of quality media enjoyment only one click away, so make sure you buy TWO! Your journey begins with a purchase of our PiBox Max Starterkit A. This bundle comes with everything you need to get going directly out the box with minimum overhead as possible. Adventure seekers want the PiBox Max Starterkit B. This package combines the PiBox Max Starter A bundle and takes it to the next level with added Wireless keyboard + mouse and Debrid, Trakt, IPTV, autoupdates/upgrades, tech support and much much more. The real thrill seekers hop right into the PiBox Max Starterkit C baby! This is this real powerhouse combines all of our in-house ingeniuty and know-how all the latest accessories and bundle it up for a premium experience unlike any other. The amount of consumer hours spent on our Starterkits vs downtime due to hours is almost neglible. The PiBox is able to operate for days without reboot or restart, making for undeniable reliability. With a system like this you can expect to pay a small fortune but not with the PiBox.'
+  	,title:'Gen-X Experience Inside'}
+  
+  ];
+
 });
