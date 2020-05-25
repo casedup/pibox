@@ -2,14 +2,11 @@ var app = angular.module('myApp', [])
 
 	app.controller('namesCtrl', function($scope) {
 	    $scope.names = [
-	    {name:'Jani',country:'Norway'},
-	    {name:'Hege',country:'Sweden'},
-	    {name:'Kai',country:'Denmark'},
-	    {name:'Jason',country:'Norway'},
-	    {name:'Kelly',country:'Denmark'},
-	    {name:'Tai',country:'St. Croix'},
-	    {name:'Pupa',country:'Nevis'},
-	    {name:'Lance',country:'St. Croix'},
-	    {name:'Clover',country:'Nevis'},
+	    {name:'PiBox Starterkit B'},
+	    {feature:'Raspberry Pi 4'},
+	    {feature:'Mini-HDMI to HDMI Cable'},
+	    {feature:'USB Type-C Power Adapter'},
+	    {feature:'32GB San-disk w/ software installed'},
+	    {feature:'5v Fan + 3 Heat sinks'}
   ];
 });

@@ -113,14 +113,16 @@
             <h5>{}</h5>
             <p><strong>$175</strong></p>
             <p><em>Includes</em>:
-					<ul>
-						<li>Raspberry Pi 4</li>
-						<li>Mini-HDMI to HDMI Cable</li>
-						<li>USB Type-C Power Adapter</li>
-						<li>32GB San-disk w/ software installed</li>
-						<li>5v Fan + 3 Heat sinks</li>
-					</ul>            
-            
+		  <div ng-app="myApp" ng-controller="namesCtrl"> 
+		
+				<ul>
+				  <li ng-repeat="x in names">
+					{{ x.feature }}
+				  </li>
+				</ul>
+			
+			</div>
+
             </p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Now</button>
           </div>
@@ -220,17 +222,6 @@
   </div>
   <!-- The Contact Section -->
   
-  <div ng-app="myApp" ng-controller="namesCtrl"> 
-
-<ul>
-  <li ng-repeat="x in names">
-    {{ x.country }} - {{ x.name }}
-  </li>
-</ul>
-
-</div>
-
-
 
   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
     <h2 class="w3-wide w3-center">Contact PiBox</h2>

@@ -106,21 +106,23 @@
       <p class="w3-opacity w3-center"><i>1-3 Day Shipping USVI</i></p><br>
 
  
-      <div class="w3-row-padding w3-padding-32" style="margin:0 -10vw" ng-controller="namesController">
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -10vw">
         <div class="w3-third w3-margin-bottom">
           <img src="media/img/pi4-trans.jpg" alt="PiBox Starterkit A" style="width:100%" class="w3-hover-opacity" id="box-small1">
           <div class="w3-container w3-white">
-            <h5>{{ name }}</h5>
+            <h5>{}</h5>
             <p><strong>$175</strong></p>
             <p><em>Includes</em>:
-					<ul>
-						<li>Raspberry Pi 4</li>
-						<li>Mini-HDMI to HDMI Cable</li>
-						<li>USB Type-C Power Adapter</li>
-						<li>32GB San-disk w/ software installed</li>
-						<li>5v Fan + 3 Heat sinks</li>
-					</ul>            
-            
+		  <div ng-app="myApp" ng-controller="namesCtrl"> 
+		
+				<ul>
+				  <li ng-repeat="x in names">
+					{{ x.feature }}
+				  </li>
+				</ul>
+			
+			</div>
+
             </p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Now</button>
           </div>
@@ -224,7 +226,7 @@
 
 <ul>
   <li ng-repeat="x in names">
-    {{ x.country }} - {{ x.name }}
+      {{ feature }}
   </li>
 </ul>
 
